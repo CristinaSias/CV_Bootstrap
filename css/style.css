@@ -41,5 +41,5 @@ a:hover {
   color: gray;
 }
 .icon .bi:hover {
-  color: rgb(250, 184, 3) !important;
+  color: rgba(253, 194, 0, 0.527) !important;
 }
