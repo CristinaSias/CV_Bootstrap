@@ -3,21 +3,27 @@ body {
   overflow-x: hidden;
 }
 
-@media (max-width: 767px) { 
-#logo{
-  height: 30px;
-}
-  .bd-example{
-   display: none;
+@media (max-width: 767px) {
+  #logo {
+    height: 30px;
   }
-  #profile{
+  .bd-example {
+    display: none;
+  }
+  #profile {
     display: none;
   }
 }
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.644);
 }
-
+.navbar {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.nav-item {
+  font-size: 12px;
+}
 .row {
   justify-content: space-between;
 }
@@ -32,8 +38,8 @@ a {
   color: white;
 }
 a:hover {
-  color:gray;
+  color: gray;
 }
 .icon .bi:hover {
-  color: gray!important;
+  color: rgb(250, 184, 3) !important;
 }
